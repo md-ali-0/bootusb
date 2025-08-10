@@ -461,20 +461,79 @@ bootusb_autogen/timestamp: /home/ali/Desktop/Project/xe/bootusb/CMakeLists.txt \
   /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in \
+  /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp \
   /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
   /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake \
   /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
   /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
   /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
   /usr/share/cmake-3.28/Modules/CMakeParseArguments.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeSystem.cmake.in \
   /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake \
   /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
   /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake \
   /usr/share/cmake-3.28/Modules/FindPkgConfig.cmake \
+  /usr/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake \
   /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
   /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
@@ -2615,8 +2674,6 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h:
-
 /usr/include/x86_64-linux-gnu/bits/unistd.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
@@ -2625,19 +2682,11 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
 
-/usr/include/x86_64-linux-gnu/asm/types.h:
-
 /usr/include/x86_64-linux-gnu/asm/posix_types.h:
-
-/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
-
-/usr/include/linux/types.h:
 
 /usr/include/linux/stat.h:
 
 /usr/include/linux/posix_types.h:
-
-/usr/include/linux/close_range.h:
 
 /usr/include/fcntl.h:
 
@@ -2665,8 +2714,6 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox:
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qscreen.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h:
@@ -2675,7 +2722,69 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QIcon:
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QFont:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QRect:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QFile:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QDateTime:
+
+/usr/include/c++/13/istream:
+
+/usr/include/c++/13/bits/istream.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+/usr/include/c++/13/stdlib.h:
+
+/usr/include/c++/13/ratio:
+
+/usr/include/c++/13/mutex:
+
+/usr/include/c++/13/chrono:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QSize:
+
+/usr/include/c++/13/bits/unique_lock.h:
+
+/usr/include/c++/13/bits/std_thread.h:
+
+/usr/include/c++/13/bits/parse_numbers.h:
+
+/usr/include/c++/13/bits/hashtable_policy.h:
+
+/usr/include/c++/13/bits/chrono.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
@@ -2687,7 +2796,9 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QDateTime:
+/usr/include/c++/13/cstdio:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -2709,11 +2820,7 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h:
-
 /usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QFontMetrics:
 
 /usr/include/x86_64-linux-gnu/bits/sysmacros.h:
 
@@ -2743,7 +2850,13 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
 
-/usr/include/x86_64-linux-gnu/asm/unistd_64.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/asm/unistd.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -2753,11 +2866,17 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/unistd.h:
 
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake:
+
 /usr/include/stdc-predef.h:
 
 /usr/include/sched.h:
 
 /usr/include/wctype.h:
+
+/usr/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake:
 
 /usr/include/pthread.h:
 
@@ -2777,13 +2896,13 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h:
 
-/usr/include/c++/13/ratio:
-
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
-/usr/include/c++/13/bits/std_thread.h:
+/usr/include/c++/13/initializer_list:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:
 
 /usr/include/c++/13/future:
 
@@ -2797,6 +2916,10 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/c++/13/bits/allocator.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/c++/13/tuple:
+
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/c++/13/type_traits:
@@ -2807,9 +2930,7 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake:
 
-/usr/include/c++/13/string_view:
-
-/usr/include/c++/13/map:
+/usr/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake:
 
 /usr/include/features.h:
 
@@ -2837,6 +2958,10 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/c++/13/iterator:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QSizeF:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h:
+
 /usr/include/c++/13/functional:
 
 /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:
@@ -2844,6 +2969,8 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 /usr/include/c++/13/ext/string_conversions.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h:
+
+/usr/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
@@ -2877,10 +3004,6 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
-/home/ali/Desktop/Project/xe/bootusb/bootusb.desktop.in:
-
-/usr/include/c++/13/cwctype:
-
 /usr/include/c++/13/ios:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
@@ -2888,6 +3011,8 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
@@ -2907,11 +3032,13 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
+/usr/include/c++/13/iostream:
+
+/usr/include/asm-generic/errno.h:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake:
 
 /usr/include/c++/13/compare:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/stdlib.h:
 
@@ -2937,11 +3064,13 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
-
 /usr/include/c++/13/bits/char_traits.h:
 
 /usr/include/c++/13/bits/std_function.h:
+
+/usr/include/x86_64-linux-gnu/bits/select-decl.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h:
 
@@ -2959,8 +3088,6 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h:
 
-/usr/include/c++/13/bits/chrono.h:
-
 /usr/include/c++/13/bits/basic_string.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake:
@@ -2971,9 +3098,9 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
-/usr/include/c++/13/bits/basic_ios.h:
-
 /usr/include/c++/13/bits/iterator_concepts.h:
+
+/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:
 
 /home/ali/Desktop/Project/xe/bootusb/include/usb_detect.h:
 
@@ -2982,6 +3109,10 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 /usr/include/c++/13/bits/basic_ios.tcc:
 
 /usr/include/c++/13/bits/locale_classes.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QList:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
@@ -2997,15 +3128,19 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/c++/13/optional:
 
-/usr/include/c++/13/bits/hash_bytes.h:
-
 /usr/include/c++/13/array:
 
 /usr/include/c++/13/algorithm:
 
+/usr/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake:
+
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
+/usr/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake:
+
 /usr/include/c++/13/bits/stl_raw_storage_iter.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
 
 /usr/include/c++/13/bits/c++0x_warning.h:
 
@@ -3023,9 +3158,17 @@ CMakeFiles/bootusb.dir/src/write_iso.cpp.o: /home/ali/Desktop/Project/xe/bootusb
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h:
 
+/usr/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:
 
 /home/ali/Desktop/Project/xe/bootusb/src/bootloader.cpp:
+
+/usr/include/stdio.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake:
+
+/usr/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
 
 /home/ali/Desktop/Project/xe/bootusb/CMakeLists.txt:
 
@@ -3039,11 +3182,11 @@ bootusb_autogen/moc_predefs.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:
-
 /usr/include/c++/13/bit:
 
 /usr/include/c++/13/bits/allocated_ptr.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake:
 
 /usr/include/c++/13/bits/locale_classes.tcc:
 
@@ -3059,8 +3202,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/include/c++/13/bits/ranges_base.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
-
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
@@ -3074,8 +3215,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/c++/13/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/13/bits/stream_iterator.h:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
@@ -3097,9 +3236,15 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
+
+/usr/include/c++/13/bits/predefined_ops.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel:
+
+/usr/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
@@ -3112,8 +3257,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/include/c++/13/bits/concept_check.h:
 
 /usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h:
 
 /usr/include/c++/13/bits/algorithmfwd.h:
 
@@ -3145,7 +3288,11 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+/usr/include/linux/close_range.h:
+
+/usr/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in:
+
+/usr/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h:
 
@@ -3167,8 +3314,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /home/ali/Desktop/Project/xe/bootusb/include/gui.h:
 
-/usr/include/c++/13/chrono:
-
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/c++/13/bits/string_view.tcc:
@@ -3181,15 +3326,21 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/13/bits/ostream_insert.h:
 
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
+/usr/share/cmake-3.28/Modules/CMakeParseArguments.cmake:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h:
+
+/home/ali/Desktop/Project/xe/bootusb/src/usb_detect.cpp:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QProgressBar:
 
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake:
+/usr/include/x86_64-linux-gnu/asm/unistd_64.h:
 
-/usr/include/stdio.h:
-
-/usr/include/c++/13/bits/refwrap.h:
+/usr/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake:
 
 /usr/include/c++/13/bits/locale_facets.tcc:
 
@@ -3201,19 +3352,27 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/13/bits/shared_ptr.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/c++/13/bits/nested_exception.h:
+
+/home/ali/Desktop/Project/xe/bootusb/src/main.cpp:
+
+/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:
+
+/usr/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake:
+
 /usr/include/c++/13/bits/shared_ptr_atomic.h:
 
 /usr/include/c++/13/cstdint:
 
 /usr/include/c++/13/bits/postypes.h:
 
-/usr/include/linux/errno.h:
-
 /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
 
-/usr/include/c++/13/bits/std_abs.h:
+/usr/include/linux/errno.h:
 
-/usr/include/c++/13/bits/parse_numbers.h:
+/usr/include/c++/13/bits/std_abs.h:
 
 /usr/include/c++/13/bits/uses_allocator.h:
 
@@ -3221,13 +3380,15 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/13/bits/stl_algo.h:
 
+/usr/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake:
+
 /usr/include/c++/13/bits/stl_algobase.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
+/usr/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h:
 
@@ -3263,25 +3424,37 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/13/bits/stl_numeric.h:
 
+/usr/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
+
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/c++/13/bits/stl_relops.h:
 
 /usr/include/c++/13/bits/stl_tempbuf.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/c++/13/bits/stl_vector.h:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QFontMetrics:
+
+/usr/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
 
 /usr/include/c++/13/bits/max_size_type.h:
 
 /usr/include/c++/13/bits/streambuf.tcc:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
 
 /usr/include/c++/13/bits/align.h:
 
@@ -3291,11 +3464,7 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/13/bits/uses_allocator_args.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QRect:
-
 /usr/include/c++/13/cctype:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h:
 
 /usr/include/c++/13/stdexcept:
 
@@ -3306,6 +3475,10 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
@@ -3325,8 +3498,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h:
 
 /home/ali/Desktop/Project/xe/bootusb/include/bootloader.h:
@@ -3343,11 +3514,15 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h:
 
+/usr/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake:
+
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
 
 /usr/include/c++/13/cstring:
+
+/usr/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
 
@@ -3375,7 +3550,13 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h:
 
+/usr/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h:
+
+/usr/include/c++/13/bits/basic_ios.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h:
 
@@ -3395,13 +3576,17 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h:
 
+/usr/include/c++/13/variant:
+
+/usr/include/c++/13/bits/atomic_base.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextEdit:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QRadioButton:
 
-/usr/include/c++/13/initializer_list:
-
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+/usr/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdeadlinetimer.h:
 
@@ -3425,12 +3610,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h:
 
-/usr/include/c++/13/bits/stl_bvector.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h:
@@ -3441,13 +3620,9 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h:
 
-/usr/include/asm-generic/errno.h:
+/usr/include/c++/13/ctime:
 
-/usr/include/c++/13/iostream:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QList:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:
 
 /usr/include/c++/13/bits/stl_heap.h:
 
@@ -3458,8 +3633,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h:
-
-/usr/include/c++/13/istream:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h:
 
@@ -3488,14 +3661,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/include/assert.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/include/c++/13/bits/stl_vector.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject:
 
 /usr/include/c++/13/cwchar:
 
@@ -3531,15 +3696,17 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h:
 
+/usr/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake:
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QFont:
+/usr/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h:
+/usr/include/x86_64-linux-gnu/asm/types.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h:
 
 /usr/include/c++/13/streambuf:
 
@@ -3575,6 +3742,8 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QTransform:
 
+/usr/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox:
@@ -3605,11 +3774,9 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:
 
-/usr/include/x86_64-linux-gnu/asm/unistd.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qradiobutton.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h:
 
@@ -3622,8 +3789,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h:
 
@@ -3649,6 +3814,8 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake:
 
+/usr/share/cmake-3.28/Modules/CMakeSystem.cmake.in:
+
 /usr/include/c++/13/condition_variable:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake:
@@ -3656,6 +3823,10 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 /usr/include/x86_64-linux-gnu/bits/statx.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake:
+
+/usr/include/c++/13/pstl/pstl_config.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake:
 
@@ -3679,6 +3850,10 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake:
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h:
+
+/usr/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake:
@@ -3689,19 +3864,89 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
+
+/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp:
+
+/usr/include/linux/types.h:
+
+/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:
+
 /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake:
-
-/usr/include/c++/13/bits/predefined_ops.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
 
 /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake:
 
-/home/ali/Desktop/Project/xe/bootusb/src/usb_detect.cpp:
+/usr/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h:
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h:
+
+/usr/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake:
+
+/usr/include/c++/13/map:
+
+/usr/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake:
 
 /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake:
+
+/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:
+
+/usr/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
+
+/usr/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
+
+/usr/include/c++/13/bits/refwrap.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
+
+/home/ali/Desktop/Project/xe/bootusb/bootusb.desktop.in:
+
+/usr/include/c++/13/cwctype:
+
+/usr/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake:
+
+/usr/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
+
+/usr/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
+
+/usr/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake:
+
+/usr/include/c++/13/string_view:
+
+/usr/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
+
+/usr/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox:
+
+/usr/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake:
+
+/usr/include/c++/13/bits/stl_bvector.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
+
+/usr/include/c++/13/bits/stream_iterator.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake:
+
+/usr/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
+
+/usr/include/c++/13/bits/hash_bytes.h:
+
+/usr/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
 
 /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake:
 
@@ -3717,11 +3962,15 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake:
 
+/usr/include/c++/13/bits/unordered_map.h:
+
+/usr/share/cmake-3.28/Modules/Platform/Linux.cmake:
+
 /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake:
 
-/usr/include/c++/13/bits/basic_string.tcc:
-
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/c++/13/bits/basic_string.tcc:
 
 bootusb_autogen/mocs_compilation.cpp:
 
@@ -3730,75 +3979,3 @@ bootusb_autogen/mocs_compilation.cpp:
 bootusb_autogen/6YEA5652QU/moc_gui.cpp:
 
 /usr/include/c++/13/bits/atomic_futex.h:
-
-/usr/include/c++/13/bits/hashtable_policy.h:
-
-/usr/share/cmake-3.28/Modules/Platform/Linux.cmake:
-
-/usr/include/c++/13/bits/unordered_map.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/13/cstdio:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:
-
-/usr/include/c++/13/ctime:
-
-/usr/include/c++/13/mutex:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake:
-
-/usr/include/c++/13/pstl/pstl_config.h:
-
-/usr/include/c++/13/stdlib.h:
-
-/usr/include/c++/13/bits/atomic_base.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextEdit:
-
-/usr/include/c++/13/variant:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
-
-/usr/include/x86_64-linux-gnu/bits/select-decl.h:
-
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QSizeF:
-
-/usr/include/c++/13/bits/nested_exception.h:
-
-/home/ali/Desktop/Project/xe/bootusb/src/main.cpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/c++/13/tuple:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/share/cmake-3.28/Modules/CMakeParseArguments.cmake:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
-
-/usr/include/c++/13/bits/istream.tcc:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QFile:
-
-/usr/include/c++/13/bits/unique_lock.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QSize:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h:
