@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=BootUSB
+Comment=Create bootable USB drives
+Exec=pkexec /home/ali/Desktop/Project/xe/bootusb/bootusb
+Icon=drive-removable-media
+Terminal=false
+Categories=System;Utility;
+Keywords=usb;boot;iso;format; 
