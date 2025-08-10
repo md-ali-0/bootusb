@@ -13,6 +13,8 @@
 #include <QVBoxLayout>
 #include <QGroupBox>
 #include <QTextEdit>
+#include <QRadioButton>
+#include <QCheckBox>
 #include <functional>
 
 class WorkerThread : public QThread {
@@ -52,7 +54,7 @@ private:
     QWidget *advancedTab;
     QWidget *logsTab;
     
-    // UI Components
+    // UI Components - Main Tab
     QComboBox *deviceCombo;
     QPushButton *refreshBtn;
     
@@ -62,9 +64,21 @@ private:
     QComboBox *filesystemCombo;
     QComboBox *bootloaderCombo;
     
+    // New components for Partition Scheme & Volume Label
+    QComboBox *partitionSchemeCombo;
+    QLineEdit *volumeLabelEdit;
+    
     QPushButton *startBtn;
     QProgressBar *progressBar;
     QLabel *statusLabel;
+    
+    // UI Components - Advanced Tab
+    QComboBox *clusterSizeCombo;
+    QRadioButton *quickFormatRadio;
+    QRadioButton *fullFormatRadio;
+    QCheckBox *checkBadBlocksCheck;
+    QCheckBox *persistentCheck;
+    QComboBox *persistentSizeCombo;
     
     // Logs
     QTextEdit *logText;

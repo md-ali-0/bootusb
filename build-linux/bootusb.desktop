@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=BootUSB
+Comment=Create bootable USB drives from ISO files
+Exec=/usr/local/bin/bootusb
+Icon=bootusb
+Terminal=false
+Categories=System;Utility;
+Keywords=usb;boot;iso;format;
+StartupNotify=true

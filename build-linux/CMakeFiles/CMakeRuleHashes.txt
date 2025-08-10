@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+342978af5f8d5dc66a4ad67a7ba12cc2 CMakeFiles/bootusb_autogen
+342978af5f8d5dc66a4ad67a7ba12cc2 CMakeFiles/bootusb_autogen_timestamp_deps
+3d101bf7041eb8dd4d6851d888efc44f bootusb_autogen/timestamp

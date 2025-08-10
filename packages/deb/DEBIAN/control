@@ -1,0 +1,18 @@
+Package: bootusb
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Depends: libc6, libqt5core5a, libqt5widgets5, libudev1
+Maintainer: BootUSB Team <support@bootusb.com>
+Description: Cross-platform bootable USB creator
+ BootUSB is a GUI application for creating bootable USB drives
+ from ISO files. It supports multiple file systems, bootloaders,
+ and advanced formatting options.
+ .
+ Features:
+  - Multiple file system support (FAT32, NTFS, ext4)
+  - Bootloader options (Syslinux, GRUB)
+  - Partition scheme support (MBR, GPT)
+  - Advanced formatting options
+  - Cross-platform compatibility

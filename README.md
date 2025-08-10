@@ -1,103 +1,247 @@
-# BootUSB (C++ / Qt)
+# BootUSB
 
-A minimal, educational Rufus-like bootable USB creator for Linux written in C++ using Qt5 for GUI and libudev for USB detection. This project is intended as a starting point — it demonstrates device detection, ISO selection, raw write (safe wrapper around low-level write), formatting (via system tools), and bootloader installation (syslinux/grub wrapper).
-
-**WARNING:** This tool performs destructive operations on block devices. Always test inside a VM and ensure you select the correct device. Use at your own risk.
+A cross-platform GUI application for creating bootable USB drives from ISO files. Supports Linux, Windows, and macOS.
 
 ## Features
 
-- **USB Device Detection**: Automatically detects removable USB storage devices using libudev
-- **ISO File Selection**: Browse and select ISO files for writing
-- **Filesystem Formatting**: Support for FAT32, NTFS, and ext4 filesystems
-- **Raw ISO Writing**: Direct block-level writing for bootable USB creation
-- **Progress Tracking**: Real-time progress bar during write operations
-- **Threaded Operations**: Non-blocking UI during write operations
-- **Safety Confirmations**: Multiple confirmation dialogs before destructive operations
+- **Cross-Platform**: Works on Linux, Windows, and macOS
+- **Multiple File Systems**: Support for FAT32, NTFS, and ext4
+- **Bootloader Options**: Syslinux, GRUB, or no bootloader
+- **Partition Schemes**: MBR and GPT support
+- **Advanced Options**: Cluster size, format type, bad block checking
+- **Persistent Storage**: For Linux live USB drives
+- **Real-time Progress**: Visual progress tracking
+- **Logging**: Detailed operation logs
+
+## Screenshots
+
+The application features a clean, modern interface with:
+- Device selection with automatic USB detection
+- ISO file browser
+- Format options (File system & Target system)
+- Partition scheme and volume label settings
+- Advanced options in a separate tab
+- Real-time progress tracking
 
 ## Requirements
-- Linux (Debian/Ubuntu tested)
-- Qt5 (Widgets)
-- libudev (libudev-dev)
-- CMake (>=3.10) or qmake
-- build-essential (g++, make)
-- syslinux, grub-install available if you want bootloader install
 
-Install dependencies (Debian/Ubuntu):
+### Linux
+- Qt5 development packages
+- libudev development package
+- CMake 3.16 or later
+- GCC with C++17 support
 
+### Windows
+- Qt5 for Windows
+- CMake 3.16 or later
+- MinGW-w64 or Visual Studio
+- Windows 7 or later
+
+### macOS
+- Qt5 (via Homebrew)
+- CMake 3.16 or later
+- Xcode Command Line Tools
+- macOS 10.14 or later
+
+## Installation
+
+### Linux
+
+#### Ubuntu/Debian
 ```bash
-sudo apt update
-sudo apt install -y build-essential cmake pkg-config libudev-dev qtbase5-dev qttools5-dev-tools syslinux grub2-common
+# Install dependencies
+sudo apt-get update
+sudo apt-get install qt5-default qtbase5-dev libudev-dev cmake build-essential
+
+# Clone and build
+git clone https://github.com/yourusername/bootusb.git
+cd bootusb
+./build.sh
 ```
 
-## Build
-
-### Using qmake (Recommended)
+#### Fedora/RHEL
 ```bash
-qmake bootusb.pro
-make -j$(nproc)
+# Install dependencies
+sudo dnf install qt5-qtbase-devel systemd-devel cmake gcc-c++
+
+# Clone and build
+git clone https://github.com/yourusername/bootusb.git
+cd bootusb
+./build.sh
 ```
 
-### Using CMake
+### Windows
+
+1. Install Qt5 for Windows from [qt.io](https://www.qt.io/download)
+2. Install CMake from [cmake.org](https://cmake.org/download/)
+3. Install MinGW-w64 or Visual Studio
+4. Clone the repository and run:
+```cmd
+git clone https://github.com/yourusername/bootusb.git
+cd bootusb
+build.bat
+```
+
+### macOS
+
 ```bash
-mkdir build && cd build
+# Install dependencies
+brew install qt5 cmake
+
+# Clone and build
+git clone https://github.com/yourusername/bootusb.git
+cd bootusb
+./build.sh
+```
+
+## Building
+
+### Quick Build
+Use the provided build scripts:
+
+- **Linux/macOS**: `./build.sh`
+- **Windows**: `build.bat`
+
+### Manual Build with CMake
+
+```bash
+mkdir build
+cd build
 cmake ..
-make -j$(nproc)
+make
 ```
 
-## Run
+### Build Options
 
-You will need root privileges to write to block devices. Example (careful):
+- `--package`: Create release package after build
+- `--clean`: Clean build directories
 
+Example:
 ```bash
-sudo ./bootusb
+./build.sh --package  # Build and create release package
+./build.sh --clean    # Clean build directories
 ```
-
-Recommended: run inside a disposable VM and double-check device selection.
 
 ## Usage
 
-1. **Launch the application** with sudo privileges
-2. **Refresh devices** to detect connected USB storage devices
-3. **Select an ISO file** using the file browser
-4. **Choose filesystem type** (FAT32 recommended for most bootable USBs)
-5. **Click "Write ISO to USB"** and confirm the operation
-6. **Wait for completion** - the progress bar will show write progress
+1. **Launch the application**
+   - Linux: `./build-linux/bin/bootusb`
+   - Windows: `build-windows\bin\BootUSB.exe`
+   - macOS: `./build-macos/bin/BootUSB`
 
-## Safety Features
+2. **Select a USB device**
+   - Choose from the dropdown list
+   - Click the refresh button to update the list
 
-- Only removable USB devices are detected and listed
-- Multiple confirmation dialogs before destructive operations
-- Clear device identification with model and size information
-- Progress tracking to monitor write operations
+3. **Select an ISO file**
+   - Click "Browse" to select your ISO file
+   - Supported formats: .iso files
 
-## Technical Details
+4. **Configure options**
+   - **Main Tab**: File system, target system, partition scheme, volume label
+   - **Advanced Tab**: Cluster size, format type, bad block checking, persistent storage
 
-- **Device Detection**: Uses libudev to enumerate block devices and filter for USB removable storage
-- **File Writing**: Direct block-level I/O using open(), read(), write() system calls
-- **Formatting**: Wrapper around parted and mkfs utilities
-- **Bootloader**: Basic wrappers for syslinux and grub-install
-- **Threading**: QThread-based worker for non-blocking UI during operations
+5. **Start the process**
+   - Click "START" to begin creating the bootable USB
+   - Monitor progress in the status section
+
+## Advanced Features
+
+### Persistent Storage (Linux ISOs)
+Enable persistent storage to save changes between boots on Linux live USB drives.
+
+### Bad Block Checking
+Check for bad blocks before formatting for better reliability.
+
+### Cluster Size
+Optimize cluster size for your specific use case.
+
+### Format Types
+- **Quick Format**: Faster, only clears file system
+- **Full Format**: Slower, performs complete disk check
 
 ## Troubleshooting
 
-- **No devices found**: Ensure USB storage device is connected and not mounted
-- **Permission denied**: Run with sudo privileges
-- **Format fails**: Ensure parted and mkfs utilities are installed
-- **Write fails**: Check if device is mounted or in use by another process
+### Common Issues
+
+1. **Permission Denied**
+   - Run with sudo/administrator privileges
+   - Ensure proper USB device permissions
+
+2. **Qt Not Found**
+   - Install Qt5 development packages
+   - Set QTDIR environment variable
+
+3. **USB Device Not Detected**
+   - Ensure device is properly connected
+   - Check if device is mounted (unmount first)
+
+4. **Build Failures**
+   - Ensure all dependencies are installed
+   - Check CMake version (3.16+ required)
+   - Verify C++17 compiler support
+
+### Platform-Specific Notes
+
+#### Linux
+- Requires udev for USB device detection
+- May need to run with sudo for device access
+- Desktop integration via .desktop file
+
+#### Windows
+- Requires administrator privileges for device access
+- Qt installation path must be in PATH or QTDIR
+- MinGW-w64 recommended for compatibility
+
+#### macOS
+- Requires administrator privileges for device access
+- Qt5 via Homebrew recommended
+- May need to allow in Security & Privacy settings
 
 ## Development
 
-The project structure:
+### Project Structure
 ```
 bootusb/
-├── include/          # Header files
-├── src/             # Source files
-├── bootusb.pro      # qmake project file
-├── CMakeLists.txt   # CMake configuration
-└── README.md        # This file
+├── src/           # Source files
+├── include/       # Header files
+├── assets/        # Resources
+├── CMakeLists.txt # CMake configuration
+├── build.sh       # Linux/macOS build script
+├── build.bat      # Windows build script
+└── README.md      # This file
 ```
+
+### Contributing
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test on multiple platforms
+5. Submit a pull request
 
 ## License
 
-This is an educational project. Use at your own risk.
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Qt Framework for cross-platform GUI
+- libudev for Linux USB device detection
+- CMake for build system
+- Open source community for inspiration and tools
+
+## Support
+
+For issues and questions:
+- Create an issue on GitHub
+- Check the troubleshooting section
+- Review platform-specific requirements
+
+## Version History
+
+- **v1.0.0**: Initial release with cross-platform support
+  - Basic USB boot creation
+  - Multiple file system support
+  - Advanced formatting options
+  - Cross-platform build system
 
